@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Memory Moths</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="intro-text">Aquí danzan polillas que nunca mueren. Brillan en el silencio del cosmos, susurrando eternamente el nombre de quienes amamos.</div>
+  <button id="toggle-music">🎵 Música</button>
+  <div class="space"></div>
+  <form id="moth-form">
+    <input type="text" id="name" placeholder="Nombre del ser querido" required>
+    <input type="text" id="date" placeholder="Fecha (opcional)" required>
+    <button type="submit">Añadir polilla</button>
+  </form>
+  <audio id="bg-music" loop>
+    <source src="audio/ethereal-voices.mp3" type="audio/mp3" />
+    Tu navegador no soporta audio.
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>
