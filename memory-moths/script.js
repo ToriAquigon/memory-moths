@@ -7,7 +7,7 @@ let moths = JSON.parse(localStorage.getItem('moths') || '[]');
 
 function createMoth(name, date) {
   const moth = document.createElement('img');
-  moth.src = 'images/moon-moth.png';
+  moth.src = 'images/luna-moth.png';
   moth.classList.add('moth');
   moth.style.left = Math.random() * window.innerWidth + 'px';
   moth.style.top = Math.random() * (window.innerHeight * 0.7) + 'px';
